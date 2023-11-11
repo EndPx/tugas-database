@@ -20,7 +20,7 @@ const getAllUser=async(req, res, next)=>{
     res.status(200).json({
       status: "Success",
       message: "Succesfully fetch all user data",
-      user: usersFix
+      users: usersFix
     })
     } catch (error) {
       res.status(500).json({
